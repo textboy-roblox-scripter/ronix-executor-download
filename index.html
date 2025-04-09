@@ -1,0 +1,161 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ronix Executor</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    /* Reset default margins and padding */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0a0a0a, #2c2c2c);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      overflow: hidden;
+      padding: 20px;
+    }
+
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 15px;
+      margin-bottom: 40px;
+    }
+
+    header img {
+      width: 80px;
+      height: 80px;
+      border-radius: 10px;
+      filter: drop-shadow(0 0 15px #7f00ff);
+    }
+
+    header h1 {
+      font-size: 3rem;
+      color: #00ffe7;
+      text-shadow: 0 0 15px #00ffe7, 0 0 30px #00ffb3;
+      letter-spacing: 2px;
+    }
+
+    .description {
+      max-width: 800px;
+      margin: 30px 0;
+      font-size: 1.1rem;
+      color: #ccc;
+      line-height: 1.6;
+      text-align: justify;
+    }
+
+    .download-btn {
+      margin: 20px;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      text-transform: uppercase;
+      background: linear-gradient(45deg, #00ffb3, #00ffe7);
+      color: #000;
+      border: 2px solid transparent;
+      border-radius: 50px;
+      cursor: pointer;
+      box-shadow: 0 0 20px rgba(0, 255, 183, 0.8);
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .download-btn:hover {
+      background: linear-gradient(45deg, #00ffe7, #00ffb3);
+      color: #000;
+      transform: scale(1.05);
+      box-shadow: 0 0 25px rgba(0, 255, 183, 1);
+    }
+
+    .download-btn:active {
+      transform: scale(0.95);
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    footer {
+      position: absolute;
+      bottom: 20px;
+      color: #ccc;
+      font-size: 0.9rem;
+    }
+
+    /* Media Queries for responsiveness */
+    @media screen and (max-width: 768px) {
+      header h1 {
+        font-size: 2.5rem;
+      }
+
+      .download-btn {
+        font-size: 1rem;
+        padding: 12px 24px;
+      }
+
+      .description {
+        font-size: 1rem;
+        padding: 0 20px;
+      }
+    }
+
+    @media screen and (max-width: 480px) {
+      header h1 {
+        font-size: 2rem;
+      }
+
+      .download-btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+      }
+
+      .description {
+        font-size: 0.9rem;
+        padding: 0 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="logo.png" alt="Ronix Logo">
+    <h1>Ronix Executor</h1>
+  </header>
+
+  <div class="description">
+    <p><strong>Ronix Executor</strong> is the ultimate tool for achieving flawless performance in your favorite games and applications. Packed with state-of-the-art features, Ronix Executor provides unparalleled control and customization, allowing users to take full advantage of the power of their devices. Whether you're looking to enhance your gaming experience or streamline your workflow, Ronix Executor is designed to give you the freedom to unlock your device's full potential.</p>
+    <p>With its user-friendly interface and lightning-fast performance, Ronix Executor is the perfect companion for anyone who values speed, precision, and functionality. Join thousands of satisfied users who rely on Ronix Executor to optimize their experience with every click. Get ready to take your gaming and productivity to the next level — Ronix Executor makes it possible!</p>
+  </div>
+
+  <div class="container">
+    <a class="download-btn" href="windows.html">Download for Windows</a>
+    <a class="download-btn" href="android.html">Download for Android</a>
+    <a class="download-btn" href="mac.html">Download for Mac OS</a>
+    <a class="download-btn" href="ios.html">Download for iOS</a>
+  </div>
+
+  <footer>
+    <p>© 2025 Ronix Executor. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
